@@ -342,6 +342,7 @@ footer .copyright {
 
   #quotes-section .content {
     padding: 1.875rem .625rem;
+    display: flex;
   }
 
   #quotes-section .quote {
@@ -425,6 +426,10 @@ footer .copyright {
 
 
 @media only screen and (max-width: 450px) {
+
+  body{
+    overflow-x: hidden;
+  }
 
   header{
     height: 48px;
