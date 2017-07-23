@@ -438,8 +438,16 @@ footer .copyright {
     display: inline
   }
   #sign-up-section {
+
     height: 20rem;
   }
+  #quotes-section{
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+   #quotes-section .content{
+    display: inline;
+   }
  .banner{
     width: 100%;
     background-size: cover;
@@ -476,5 +484,6 @@ footer .copyright {
   #filters-section .extra {
     display: none;
   }
+
 }
 
