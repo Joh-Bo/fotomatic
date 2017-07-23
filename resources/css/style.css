@@ -334,7 +334,7 @@ footer .copyright {
   }
 
   #filters-section .extra {
-    display: none;
+    display: block;
   }
 
 
@@ -366,6 +366,11 @@ footer .copyright {
     margin: 2rem 1rem;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature h3 {
+    padding: 0;
+  }
+
 
   /*Sign up section*/
 
@@ -450,12 +455,21 @@ footer .copyright {
   /*Feature section*/
   #features-section{
     margin-bottom: 30px;
+    flex-flow: column;
+  }
+  #features-section .feature{
+    margin: 0;
   }
   .feature .center .image-container{ 
     margin-top: -16px;
   }
   .feature .content{
     height: auto;
+  }
+
+  /*Filter section*/
+  #filters-section .extra {
+    display: none;
   }
 }
 
